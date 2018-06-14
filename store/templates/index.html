@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block nav %}
+  <a class="nav-item nav-link" href="/list">List</a>
+  <a class="nav-item nav-link" href="/add">Add</a>
+{% endblock %}
+
+{% block content %}
+  <h1>Hello and welcome to Django Stores</h1>
+
+  <ul>
+    <li><a href="/list">List all names</a></li>
+    <li><a href="/add">Add a name</a></li>
+  </ul>
+{% endblock %}
